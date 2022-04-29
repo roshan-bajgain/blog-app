@@ -1,8 +1,6 @@
-![](https://img.shields.io/badge/thecodechaser-blueviolet)
-
 # Blog-App
 
-> The Blog app is a classic example of a blog website. It's a functional website that shows the list of posts and empower readers to interact with them by adding comments and liking post.
+> The Blog app will be a classic example of a blog website. You will create a fully functional website that will show the list of posts and empower readers to interact with them by adding comments and liking posts.
 
 
 ## Built With
