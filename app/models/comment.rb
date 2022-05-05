@@ -5,6 +5,7 @@ class Comment < ApplicationRecord
   after_save :update_likes_counter
 
   private
+
   def update_comments_counter
     post.increment!(:comments_counter)
   end
