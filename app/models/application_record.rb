@@ -1,3 +1,5 @@
 class ApplicationRecord < ActiveRecord::Base
-  primary_abstract_class
+  def current_user
+    User.limit(1)
+  end
 end
