@@ -14,7 +14,7 @@
  *= require_self
  */
 
- /* Users-index */
+/* Users-index */
 .users-container {
   display: flex;
   flex-direction: column;
@@ -39,7 +39,7 @@
 .user-img {
   width: 200px;
 }
- 
+
 .user-info-box {
   display: flex;
   gap: 50px;
@@ -55,7 +55,7 @@
   font-size: 15px;
 }
 
-  /* user-show */
+/* user-show */
 .user-show-c {
   display: flex;
   flex-direction: column;
@@ -81,7 +81,7 @@
   align-self: flex-end;
 }
 
-    /* posts-index */
+/* posts-index */
 
 .posts-container {
   display: flex;
@@ -105,7 +105,7 @@
   width: 400px;
 }
 
-  /* post-show */
+/* post-show */
 .post-show-c {
   display: flex;
   flex-direction: column;
