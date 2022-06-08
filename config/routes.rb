@@ -13,6 +13,9 @@ Rails.application.routes.draw do
   # get "/users/:id/posts/:id", to: "posts#post"
 
   resources :users, only: [:show, :index] do
-    resources :posts, only: [:show, :index]
+    resources :posts, only: [:show, :index, :create, :new] do
+      resources :comments, only: [:create, :new]
+      resources :likes, only: [:create]
+      end
   end
 end
